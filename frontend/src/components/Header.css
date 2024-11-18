@@ -1,0 +1,41 @@
+/* Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 10000000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  margin-left: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.custom-toast-mode {
+  margin-top: 100px;
+}
+.custom-toast-led {
+  margin-top: 50px;
+}
+.custom-toast-fan {
+  margin-top: 150px;
+}

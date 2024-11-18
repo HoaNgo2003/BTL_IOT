@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.room-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.room-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-header h3 {
+  margin: 0;
+}
+
+.room-details {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f99;
+}
+
+.device-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.device-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.device-header h3 {
+  margin: 0;
+}
+
+.device-controls button {
+  margin-top: 10px;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  margin: 5px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App-header {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.room-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.room-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.room-details {
+  margin-top: 10px;
+}
+
+.room-details p {
+  margin: 5px 0;
+}
+
+.control-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0077b6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-btn:hover {
+  background-color: #005f99;
+}
+
+.add-room input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.container {
+  padding: 20px;
+}
+.room-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.add-room {
+  margin-top: 20px;
+}
+.add-room input {
+  margin-right: 10px;
+  padding: 5px;
+}
+.back-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.card input,
+select {
+  padding: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+.device-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.history-table th,
+.history-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.history-table th {
+  background-color: #0077b6;
+  color: white;
+}
